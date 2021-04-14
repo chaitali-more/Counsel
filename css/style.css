@@ -1,0 +1,237 @@
+
+/* header background */
+header {
+  background: url(../assests/images/Counsel-psd-webpage.jpg);
+  background-position: center;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .buttonh a{
+  color: #fde428;
+  border-color: #fde428;
+}
+header ul li a{
+  font-size: 14px;
+letter-spacing: 1px;
+line-height: 51px;
+}
+header .rightnav ul li:hover{
+  color: #fde428;
+}
+header .rightnav ul li i:hover{
+  color: #fde428;
+}
+.leftherosection{
+  font-size: 12px;
+  line-height: 52px;
+}
+header .buttonh a , a.buttonh { 
+  font-size: 21px;
+  line-height: 51px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration-line: underline;
+  max-width:100%; 
+  display:inline-block;   
+}
+.scrolldown a{
+    font-size: 41px;
+    position: absolute;
+    top: 93%;
+}
+
+
+/* Testimonal Section */
+.testimonalparent { 
+  position: relative; 
+  height:540px ; 
+}
+.testimonalparent  .testimonalSlider { 
+  position: absolute; 
+}
+.testimonalSlider h6::before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  top: 92%;
+  left: 41%;
+}
+.testimonalSlider h6::after{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  top: 92%;
+  left: 57%;
+}
+/* hero section */
+.slide{
+    width: 300px;
+    border: 10px solid yellow;
+    border-left:transparent ;
+}
+.slideh1{
+    position: relative;
+    left: -77%;
+}
+.slidebtn{
+    position: relative;
+    left:-25%;
+    margin-top:15px;
+}
+.slideh1::before {
+    content: '';
+    position: absolute;
+    border: 0px;
+    width: 9px;
+    top: -80px;
+    background-color: yellow;
+    height: 90px;
+    left: 216px;
+}
+.slidebtn::before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 19px;
+    background-color: yellow;
+    top: -5px;
+    left: 65px;
+}
+.slidebtn::before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 29px;
+    background-color: yellow;
+    top: -16px;
+    left: 65px;
+}
+.slidebtn::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 89px;
+  background-color: yellow;
+  top: 42px;
+  left: 65px;
+}
+/* risk section */
+.leftrisk{
+    width: 520px;
+}
+.overlay{
+    display: inline;
+    width: 40%;
+    color: black;
+    background-color: #fff;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .img2{
+    position: relative;
+    display: inline;
+  }
+  .img2::before {
+    position: absolute;
+    content: '';
+    width: 267px;
+    height: 533px;
+    background-color: #fde428;
+    left: 25%;
+    z-index: -1;
+    top:calc(100% - 429px);
+}
+/* contact with us */
+.addresslogo.ib {
+  vertical-align: top;
+}
+.leftlooking h4,.servicecontainer h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Why we best Section */
+  .bimg1{
+    position: relative;
+    display: inline;
+    
+  }
+  .bimg1 img{
+      height: 325px;
+  }
+  .bimg1::before {
+    position: absolute;
+    content: '';
+    width: 267px;
+    height: 547px;
+    background-color: #fde428;
+    left: 25%;
+    top: -1190%;
+    z-index: -1;
+}
+.bestleft{
+    position: relative;
+}
+.bimg2{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+/*Lightbox  */
+ .lightbox {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+
+/** videoModal **/
+#videoModal {
+  border-radius: 0;
+  width: 870px;
+  margin:auto;
+}
+#videoModal .modal-header {
+    background: #000;
+    border: 0;
+    color: #fff;
+    position: relative;
+    height:35px; 
+  }
+#videoModal .modal-body {
+    height: 489px;
+    padding: 0;
+    max-height: none;
+    overflow: hidden; 
+}
+#videoModal .modal-footer:empty {
+    display: none !important; 
+}
+#videoModal .close {
+    background: #fde428;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px; 
+}
